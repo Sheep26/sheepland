@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Sheepland - Bean Clicker</title>
+  <meta content="Sheepland - Bean Clicker" property="og:title" />
+  <meta content="Sheepland the home of Sheep26" property="og:description" />
+  <meta content="https://Sheepland.sheep26.repl.co" property="og:url" />
+  <meta content="https://Sheepland.sheep26.repl.co/icon.ico" property="og:image" />
+  <link href="bean-style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<script>
+  function cheese1212() {
+    var minion_shop = document.getElementById("minionshop");
+    if (minion_shop.style.display === "none") {
+      minion_shop.style.display = "block";
+    } else {
+      minion_shop.style.display = "none";
+    }
+    var cookie_shop = document.getElementById("Cookieshop");
+    cookie_shop.style.display = "none";
+    var upgradeshop = document.getElementById("upgradeshop");
+    upgradeshop.style.display = "none";
+  }
+  function cheese12121() {
+    var cookie_shop = document.getElementById("Cookieshop");
+    cookie_shop.style.display = "none";
+    var minion_shop = document.getElementById("minionshop");
+    minion_shop.style.display = "none";
+    var upgradeshop = document.getElementById("upgradeshop");
+    if (upgradeshop.style.display === "none") {
+      upgradeshop.style.display = "block";
+    } else {
+      upgradeshop.style.display = "none";
+    }
+  }
+  function cheese121() {
+    var cookie_shop = document.getElementById("Cookieshop");
+    if (cookie_shop.style.display === "none") {
+      cookie_shop.style.display = "block";
+    } else {
+      cookie_shop.style.display = "none";
+    }
+    var minion_shop = document.getElementById("minionshop");
+    minion_shop.style.display = "none";
+    var upgradeshop = document.getElementById("upgradeshop");
+    upgradeshop.style.display = "none";
+  }
+</script>
+
+<body>
+  <script src="bean-script.js"></script>
+  </script>
+  <div>
+    <div class="beanclicker">
+      <h1>Bean clicker</h1>
+      <h1>
+        <label id="clicker25" class="clicker25">
+          0
+        </label>
+        beans
+      </h1>
+      <button onclick="onbeansbuttonclicked()" class="cookie">the cookie</button>
+      <br>
+      <h1 style="font-size: 40px;">Buy mode</h1>
+      <button onclick="setbuyamount(1)">1</button> <button onclick="setbuyamount(10)">10</button> <button
+        onclick="setbuyamount(100)">100</button> <button onclick="setbuyamount(1000)">1000</button>
+      <br>
+      <h1 style="font-size: 40px;">Shop</h1>
+      <button onclick="cheese121()">Bean shop</button> <button onclick="cheese1212()">Minion shop</button> <button
+        onclick="cheese12121()">Upgrade shop</button><br><br>
+      <div id="Cookieshop" style="display: none">
+        <button onclick="cursors()">
+          <labal id="cursorbuynum">1</labal> cursor <labal id="cursorcostnum">15</labal> beans
+        </button>
+        <label id="cursors" class="clicker25">0</label>
+        <br>
+        <button onclick="ovensshop()">
+          <labal id="ovenbuynum">1</labal> oven <labal id="ovenscostnum">100</labal> beans
+        </button>
+        <label id="ovensnum" class="clicker25">0</label>
+        <br>
+        <button onclick="buymigits()">
+          <labal id="migitbuynum">1</labal> buy minion <labal id="25">1000</labal> beans
+        </button>
+        <label id="migitnum" class="clicker25">0</label>
+        <br>
+        <button onclick="buyfarm()">
+          <labal id="farmbuynum">1</labal> buy farm <labal id="26">5000</labal> beans
+        </button>
+        <label id="farmnum" class="clicker25">0</label>
+        <br>
+        <button onclick="buypizza()">
+          <labal id="pizzabuynum">1</labal> pizza <labal id="27">1000000</labal> beans
+        </button>
+        <label id="pnum" class="clicker25">0</label>
+        <br>
+        <button onclick="hotchocolate10()">
+          <labal id="hotbuynum">1</labal> hot chocolate <labal id="28">10000000</labal> beans
+        </button>
+        <label id="hnum" class="clicker25">0</label>
+      </div>
+      <div id="minionshop" style="display: none">
+        <button onclick="buyshades()">
+          <labal id="shadbuynum">1</labal> grus cool shades <labal id="29">500000</labal> minions
+        </button>
+        <label id="snum" class="clicker25">0</label>
+        <br>
+        <button onclick="buyyez()">
+          <labal id="yesbuynum">1</labal> yeezys <labal id="30">1000000</labal> minions
+        </button>
+        <label id="ynum" class="clicker25">0</label>
+        <br>
+        <button onclick="buymigitgod()">
+          <labal id="minbuynum">1</labal> buy minion god <labal id="31">250000</labal> minions
+        </button>
+        <label id="migitgodnum" class="clicker25">0</label>
+        <br>
+      </div>
+      <div id="upgradeshop" style="display: none">
+        <button onclick="multit()">
+          <labal id="multbuynum">1</labal> cookie multiplyer <labal id="32">1000000000</labal> beans
+        </button>
+        <label id="mnum" class="clicker25">1</label>
+        <Br>
+        <button onclick="minmult()">
+          <labal id="minmultbuynum">1</labal> minion multiplyer <labal id="33">1000000000000</labal> beans
+        </button>
+        <label id="minnum" class="clicker25">1</label>
+      </div>
+    </div>
+</body>
+
+</html>

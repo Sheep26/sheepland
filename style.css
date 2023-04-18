@@ -1,0 +1,115 @@
+body {background-color: rgb(29, 28, 28);}
+
+.navbar {
+    background-color: black;
+    overflow: hidden;
+}
+.pothaha{
+  text-align: center;
+}
+  
+.navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.navbar a:hover {
+    background-color: black;
+    color: gray;
+}
+  
+.navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.bottemnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/*.button {
+    background-color: blue;
+    border: round;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}*/
+
+
+.iliksize {
+    text-align: center;
+}
+
+.endnav {
+  text-align: end;
+}
+
+h1 {
+  color: white;
+}
+.container-haha {
+  margin-left: 30px;
+  margin-top: 64px;
+}
+
+.abutton {
+  border-radius: 4px;
+  background: linear-gradient(to right, #b70606, #1a6bc1) !important;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 22px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.4s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+/*.abutton {
+  border-radius: 4px;
+  background: linear-gradient(to right, #67b26b, #4ca2cb) !important;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 22px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.4s;
+  cursor: pointer;
+  margin: 5px;
+}*/
+
+.abutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.4s;
+}
+
+.abutton span:after {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.abutton:hover span {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.abutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}

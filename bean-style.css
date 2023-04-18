@@ -1,0 +1,104 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(29, 28, 28);
+}
+
+.beanclicker {
+  text-align: center;
+}
+
+.navbar {
+    background-color: black;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: black;
+    color: gray;
+}
+
+.navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.clicker25{
+  color: white;
+}
+
+h1{
+  color: white;
+}
+p{
+  color: white;
+}
+.nocheese{
+  position: absolute;
+  top: 1%;
+}
+.wait12{
+  position: absolute;
+  right: 90px;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);
+
+h1,
+p,
+a{
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial';
+}
+
+h1 {
+  font-size: 2.8em;
+  padding: 10px 0;
+  font-weight: 800;
+}
+
+p {
+  font-size: 1.1em;
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+
+.header {
+  width: 100%;
+  padding:20px 0;
+  text-align: center;
+  background: #33cccc;
+  color: white;
+}
+
+
+.btn-bgstroke {
+  font-size: 20px;
+  display: inline-block;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 300;
+  margin-top: 30px; 
+}
+
+.btn-bgstroke:hover {
+  background-color: white;
+  color: #33cccc;
+}
+
+h2{
+  color: white;
+}
